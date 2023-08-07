@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react"; // Import useEffect and useRef
 import { useParams } from "react-router-dom";
 import { appId, serversecret,} from "../helper";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
+import '../Home/home.css'
 
 function Room() {
   const { roomid } = useParams();
@@ -17,7 +18,7 @@ function Room() {
       serverSecret,
       roomid,
       Date.now().toString(),
-      "sharjeel shah"
+      "Sharjeel Ahmed Shah"
     );
     
     const zp = ZegoUIKitPrebuilt.create(kitToken);
