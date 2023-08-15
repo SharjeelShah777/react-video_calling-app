@@ -1,6 +1,6 @@
-*{
+/* *{
     background-color: #fff;
-}
+} */
   .container {
     max-width: 350px;
     background: #F8F9FD;
@@ -192,7 +192,7 @@
       right: 50%;
     }
 
-    .bg {
+    /* .bg {
       margin-top: 1.5rem;
         padding: 1.1rem 2.2rem;
         font-size: 1rem;
@@ -224,7 +224,7 @@
       .button:after {
         right: 0%;
       }
-      
+       */
    
     
   
